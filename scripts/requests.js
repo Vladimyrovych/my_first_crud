@@ -94,4 +94,7 @@ function sendRow(isCreate, isUpdate, isDelete) {
     console.log(checkedRow);
     
     seveSelectedRow();
+
+    console.log('Hello!');
+    
 }
