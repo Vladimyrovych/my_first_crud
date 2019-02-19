@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./main.css">
+
+<body>
+    <div class="control-panel-container">
+        <div class="control-panel-container__buttons-container buttons-container">
+            <button class="buttons-container__create-btn button">CREATE PARENT</button>
+            <button class="buttons-container__update-btn button">UPDATE</button>
+            <button class="buttons-container__delete-btn button">DELETE</button>
+        </div>
+        <div class="control-panel-container__grid-container grid-container">
+            <table class="grid-container__table table">
+            </table>
+        </div>
+    </div>
+    <div class="control-panel-container__modal-create">
+        <form action="" method="post" class="control-panel-container__modal-create-wrapper modal-wrapper">
+            <div class="modal-wrapper__inputs-container">
+            </div>
+            <div class="modal-wrapper__buttons-container buttons">
+                <button class="buttons__create button">CREATE PARENT</button>
+                <button class="buttons__cencel button">CANCEL</button>
+            </div>
+        </form>
+    </div>
+    <div class="control-panel-container__modal-update">
+        <form action="" method="post" class="control-panel-container__modal-update-wrapper modal-wrapper">
+            <div class="modal-wrapper__inputs-container">
+            </div>
+            <div class="modal-wrapper__buttons-container buttons">
+                <button class="buttons__update button">UPDATE</button>
+                <button class="buttons__cencel button">CANCEL</button>
+            </div>
+        </form>
+    </div>
+    <div class="control-panel-container__modal-delete">
+        <form action="" method="post" class="control-panel-container__modal-delete-wrapper modal-wrapper">
+            <div class="modal-wrapper__inputs-container">
+            </div>
+            <div class="modal-wrapper__buttons-container buttons">
+                <button class="buttons__delete button">DELETE</button>
+                <button class="buttons__cencel button">CANCEL</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="./scripts/json.js"></script>
+    <script src="./scripts/input_data.js"></script>
+    <script src="./scripts/crud_actions.js"></script>
+    <script src="./scripts/grouping_rows.js"></script>
+    <script src="./scripts/requests.js"></script>
+
+</body>
+
+</html>
